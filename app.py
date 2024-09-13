@@ -43,7 +43,7 @@ def train_model(data):
 
 
 def load_model():
-    return joblib.load('preprocessor\sales_predictor.pkl')
+    return joblib.load('sales_predictor.pkl')
 
 data = load_data()
 model = load_model()
