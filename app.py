@@ -10,7 +10,7 @@ import joblib
 
 
 def load_data():
-    data = pd.read_csv('data\BDM.csv')
+    data = pd.read_csv('BDM.csv')
     return data
 
 def train_model(data):
